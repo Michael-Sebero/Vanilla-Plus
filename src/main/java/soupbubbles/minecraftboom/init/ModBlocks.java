@@ -36,7 +36,6 @@ import soupbubbles.minecraftboom.block.BlockSoulGlass;
 import soupbubbles.minecraftboom.block.BlockSoulGlassPane;
 import soupbubbles.minecraftboom.block.BlockWoodenButton;
 import soupbubbles.minecraftboom.block.BlockWoodenLadder;
-import soupbubbles.minecraftboom.block.BlockWoodenPressurePlate;
 import soupbubbles.minecraftboom.block.BlockWoodenTrapDoor;
 import soupbubbles.minecraftboom.block.base.BlockBase;
 import soupbubbles.minecraftboom.block.base.BlockFallingBase;
@@ -58,8 +57,6 @@ public class ModBlocks
     public static final List<Block> STAIRSLAB_LIST = new ArrayList<Block>();
 
     //Mod Blocks
-    public static final Block BLOCK_COBBLESTONE_BRICKS;
-    public static final Block BLOCK_MOSSY_COBBLESTONE_BRICKS;
     public static final Block BLOCK_TERRACOTTA_BRICKS;
     public static final Block BLOCK_WHITE_TERRACOTTA_BRICKS;
     public static final Block BLOCK_ORANGE_TERRACOTTA_BRICKS;
@@ -164,12 +161,6 @@ public class ModBlocks
     public static final Block BLOCK_ACACIA_BUTTON;
     public static final Block BLOCK_DARK_OAK_BUTTON;
 
-    public static final Block BLOCK_SPRUCE_PRESSURE_PLATE;
-    public static final Block BLOCK_BIRCH_PRESSURE_PLATE;
-    public static final Block BLOCK_JUNGLE_PRESSURE_PLATE;
-    public static final Block BLOCK_ACACIA_PRESSURE_PLATE;
-    public static final Block BLOCK_DARK_OAK_PRESSURE_PLATE;
-
     //Decoration
     public static final Block BLOCK_GOLDEN_BARS;
     public static final Block BLOCK_RED_NETHER_BRICK_FENCE;
@@ -203,8 +194,6 @@ public class ModBlocks
         BLOCK_ACACIA_BOOKSHELF = registerBlock(new BlockBookShelf(Names.BLOCK_ACACIA_BOOKSHELF));
         BLOCK_DARK_OAK_BOOKSHELF = registerBlock(new BlockBookShelf(Names.BLOCK_DARK_OAK_BOOKSHELF));
 
-        BLOCK_COBBLESTONE_BRICKS = registerBlock(((BlockBase) new BlockBase(Names.BLOCK_COBBELSTONE_BRICKS).setHardness(BlockValues.COBBLESTONE_HARDNESS).setResistance(BlockValues.COBBLESTONE_RESISTANCE)).addStairSlab());
-        BLOCK_MOSSY_COBBLESTONE_BRICKS = registerBlock(((BlockBase) new BlockBase(Names.BLOCK_MOSSY_COBBELSTONE_BRICKS).setHardness(BlockValues.COBBLESTONE_HARDNESS).setResistance(BlockValues.COBBLESTONE_RESISTANCE)).addStairSlab());
         BLOCK_TERRACOTTA_BRICKS = ((BlockBase) registerBlock(new BlockBase(Names.BLOCK_TERRACOTTA_BRICKS).setHardness(BlockValues.TERRACOTTA_HARDNESS).setResistance(BlockValues.TERRACOTTA_RESISTANCE))).addStairSlab();
         BLOCK_WHITE_TERRACOTTA_BRICKS = ((BlockBase) registerBlock(new BlockBase(Names.BLOCK_WHITE_TERRACOTTA_BRICKS).setHardness(BlockValues.TERRACOTTA_HARDNESS).setResistance(BlockValues.TERRACOTTA_RESISTANCE))).addStairSlab();
         BLOCK_ORANGE_TERRACOTTA_BRICKS = ((BlockBase) registerBlock(new BlockBase(Names.BLOCK_ORANGE_TERRACOTTA_BRICKS).setHardness(BlockValues.TERRACOTTA_HARDNESS).setResistance(BlockValues.TERRACOTTA_RESISTANCE))).addStairSlab();
@@ -299,12 +288,6 @@ public class ModBlocks
         BLOCK_ACACIA_BUTTON = registerBlock(new BlockWoodenButton(Names.BLOCK_ACACIA_BUTTON));
         BLOCK_DARK_OAK_BUTTON = registerBlock(new BlockWoodenButton(Names.BLOCK_DARK_OAK_BUTTON));
 
-        BLOCK_SPRUCE_PRESSURE_PLATE = registerBlock(new BlockWoodenPressurePlate(Names.BLOCK_SPRUCE_PRESSURE_PLATE));
-        BLOCK_BIRCH_PRESSURE_PLATE = registerBlock(new BlockWoodenPressurePlate(Names.BLOCK_BIRCH_PRESSURE_PLATE));
-        BLOCK_JUNGLE_PRESSURE_PLATE = registerBlock(new BlockWoodenPressurePlate(Names.BLOCK_JUNGLE_PRESSURE_PLATE));
-        BLOCK_ACACIA_PRESSURE_PLATE = registerBlock(new BlockWoodenPressurePlate(Names.BLOCK_ACACIA_PRESSURE_PLATE));
-        BLOCK_DARK_OAK_PRESSURE_PLATE = registerBlock(new BlockWoodenPressurePlate(Names.BLOCK_DARK_OAK_PRESSURE_PLATE));
-
         BLOCK_GOLDEN_BARS = registerBlock(new BlockPaneBase(Material.IRON, Names.BLOCK_GOLDEN_BARS, SoundType.METAL, true).setHardness(5.0F).setResistance(10.0F));
         BLOCK_RED_NETHER_BRICK_FENCE = registerBlock(new BlockRedNetherBrickFence());
         BLOCK_NETHER_BRICK_FENCE_GATE = registerBlock(new BlockNetherBrickFenceGate(Names.BLOCK_NETHER_FENCE_GATE));
@@ -332,8 +315,6 @@ public class ModBlocks
         addVanillaStairSlab(Blocks.STONE.getDefaultState().withProperty(BlockStone.VARIANT, BlockStone.EnumType.GRANITE_SMOOTH), Names.SMOOTH_GRANITE);
         addVanillaStairSlab(Blocks.STONE.getDefaultState().withProperty(BlockStone.VARIANT, BlockStone.EnumType.DIORITE_SMOOTH), Names.SMOOTH_DIORITE);
         addVanillaStairSlab(Blocks.STONE.getDefaultState().withProperty(BlockStone.VARIANT, BlockStone.EnumType.ANDESITE_SMOOTH), Names.SMOOTH_ANDESITE);
-        addVanillaStairSlab(Blocks.MOSSY_COBBLESTONE, Names.MOSSY_COBBLESTONE);
-        addVanillaStairSlab(Blocks.STONEBRICK.getDefaultState().withProperty(BlockStoneBrick.VARIANT, BlockStoneBrick.EnumType.MOSSY), Names.MOSSY_STONEBRICK);
         addVanillaStairSlab(Blocks.STONEBRICK.getDefaultState().withProperty(BlockStoneBrick.VARIANT, BlockStoneBrick.EnumType.CRACKED), Names.CRACKED_STONEBRICK);
         addVanillaStairSlab(Blocks.STONEBRICK.getDefaultState().withProperty(BlockStoneBrick.VARIANT, BlockStoneBrick.EnumType.CHISELED), Names.CHISELED_STONEBRICK);
         addVanillaStairSlab(Blocks.SANDSTONE.getDefaultState().withProperty(BlockSandStone.TYPE, BlockSandStone.EnumType.CHISELED), Names.CHISELED_SANDSTONE);

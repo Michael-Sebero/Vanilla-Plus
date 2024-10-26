@@ -68,7 +68,7 @@ public class CreativeTab
         @Override
         public ItemStack getTabIconItem()
         {
-            return new ItemStack(((IStairSlab) ModBlocks.BLOCK_MOSSY_COBBLESTONE_BRICKS).getStair());
+            return new ItemStack(ModBlocks.BLOCK_TERRACOTTA_BRICKS); // Changed icon to BLOCK_TERRACOTTA_BRICKS for consistency
         }
 
         @SideOnly(Side.CLIENT)
