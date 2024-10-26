@@ -18,7 +18,6 @@ public class ModItems
     public static final Set<Item> ITEMS = new HashSet<>();
 
     public static final Item ITEM_ELDER_GUARDIAN_SPIKE;
-    public static final Item ITEM_PINECONE;
     public static final Item ITEM_WITHER_BONE;
     public static final Item ITEM_POLAR_BEAR_FUR;
     public static final Item ITEM_PUMPKIN_SLICE;
@@ -34,7 +33,6 @@ public class ModItems
         ITEM_ELDER_GUARDIAN_SPIKE = registerItem(new ItemBase(Names.ITEM_ELDER_GUARDIAN_SPIKE));
         ITEM_POLAR_BEAR_FUR = registerItem(new ItemBase(Names.ITEM_POLAR_BEAR_FUR));
         ITEM_WITHER_BONE = registerItem(new ItemBase(Names.ITEM_WITHER_BONE));
-        ITEM_PINECONE = registerItem(new ItemFoodBase(Names.ITEM_PINECONE, 3, 2.4F, false));
         ITEM_PRISMARINE_ARROW = registerItem(new ItemPrismarineArrow());
         ITEM_WHEAT_ON_A_STICK = registerItem(new ItemBase(Names.ITEM_WHEAT_ON_A_STICK));
         ITEM_PUMPKIN_SLICE = registerItem(new ItemFoodBase(Names.ITEM_PUMPKIN_SLICE, 2, 1.2F, false));

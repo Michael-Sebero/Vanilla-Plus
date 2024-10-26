@@ -40,9 +40,7 @@ public class Names
     public static final String JUNGLE = BlockPlanks.EnumType.JUNGLE.getName();
     public static final String DARK_OAK = BlockPlanks.EnumType.DARK_OAK.getName();
     public static final String ACACIA = BlockPlanks.EnumType.ACACIA.getName();
-    public static final String MOSSY_COBBLESTONE = "mossy_cobblestone";
     public static final String STONEBRICK = BlockStoneBrick.EnumType.DEFAULT.getName();
-    public static final String MOSSY_STONEBRICK = BlockStoneBrick.EnumType.MOSSY.getName();
     public static final String CRACKED_STONEBRICK = BlockStoneBrick.EnumType.CRACKED.getName();
     public static final String CHISELED_STONEBRICK = BlockStoneBrick.EnumType.CHISELED.getName();
     public static final String TERRACOTTA = "terracotta";
@@ -70,8 +68,6 @@ public class Names
     public static final String BLOCK_ACACIA_BOOKSHELF = "acacia_bookshelf";
     public static final String BLOCK_DARK_OAK_BOOKSHELF = "dark_oak_bookshelf";
 
-    public static final String BLOCK_COBBELSTONE_BRICKS = "cobblestone_bricks";
-    public static final String BLOCK_MOSSY_COBBELSTONE_BRICKS = "mossy_cobblestone_bricks";
     public static final String BLOCK_TERRACOTTA_BRICKS = "terracotta_bricks";
     public static final String BLOCK_WHITE_TERRACOTTA_BRICKS = "white_terracotta_bricks";
     public static final String BLOCK_ORANGE_TERRACOTTA_BRICKS = "orange_terracotta_bricks";
@@ -184,12 +180,6 @@ public class Names
     public static final String BLOCK_ACACIA_BUTTON = "acacia_button";
     public static final String BLOCK_DARK_OAK_BUTTON = "dark_oak_button";
 
-    public static final String BLOCK_SPRUCE_PRESSURE_PLATE = "spruce_pressure_plate";
-    public static final String BLOCK_BIRCH_PRESSURE_PLATE = "birch_pressure_plate";
-    public static final String BLOCK_JUNGLE_PRESSURE_PLATE = "jungle_pressure_plate";
-    public static final String BLOCK_ACACIA_PRESSURE_PLATE = "acacia_pressure_plate";
-    public static final String BLOCK_DARK_OAK_PRESSURE_PLATE = "dark_oak_pressure_plate";
-
     public static final String BLOCK_GOLDEN_BARS = "golden_bars";
     public static final String BLOCK_RED_NETHER_FENCE = "red_nether_brick_fence";
     public static final String BLOCK_NETHER_FENCE_GATE = "nether_brick_fence_gate";
@@ -197,7 +187,6 @@ public class Names
     public static final String BLOCK_ROSE = "rose";
 
     public static final String ITEM_ELDER_GUARDIAN_SPIKE = "elder_guardian_spike";
-    public static final String ITEM_PINECONE = "pinecone";
     public static final String ITEM_WITHER_BONE = "wither_bone";
     public static final String ITEM_PUMPKIN_SLICE = "pumpkin_slice";
     public static final String ITEM_POLAR_BEAR_FUR = "polar_bear_fur";

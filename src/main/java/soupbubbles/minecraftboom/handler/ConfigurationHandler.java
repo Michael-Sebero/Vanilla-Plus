@@ -59,8 +59,6 @@ public class ConfigurationHandler
     public static boolean removeSlimeBall;
     public static boolean leavesDropSticks;
     public static double stickDropRate;
-    public static boolean spruceDropsPinecones;
-    public static double pineconeDropRate;
     public static boolean replaceLoadingScreen;
     public static boolean silverfishDrop;
     public static boolean polarBearDrop;

@@ -27,11 +27,6 @@ public class BlockEventHandler
         if (event.getState().getBlock() instanceof BlockOldLeaf)
         {
             event.setDropChance(1.0F);
-
-            if (event.getState().getValue(BlockOldLeaf.VARIANT).getMetadata() == BlockPlanks.EnumType.SPRUCE.getMetadata() && event.getWorld().rand.nextFloat() < ConfigurationHandler.pineconeDropRate && ConfigurationHandler.spruceDropsPinecones && Utils.isItemEnabled(ModItems.ITEM_PINECONE))
-            {
-                event.getDrops().add(new ItemStack(ModItems.ITEM_PINECONE));
-            }
             
             if (event.getWorld().rand.nextFloat() < ConfigurationHandler.stickDropRate && ConfigurationHandler.leavesDropSticks)
             {

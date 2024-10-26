@@ -14,14 +14,12 @@ item.fermentedSpiderEye.name=Fermented Arthropod Eye
 
 # Items
 item.minecraftboom.elder_guardian_spike.name=Elder Guardian Spike
-item.minecraftboom.pinecone.name=Pinecone
 item.minecraftboom.wither_bone.name=Wither Bone
 item.minecraftboom.pumpkin_slice.name=Pumpkin Slice
 item.minecraftboom.polar_bear_fur.name=Polar Bear Fur
 item.minecraftboom.prismarine_arrow.name=Prismarine Arrow
 item.minecraftboom.wheat_on_a_stick.name=Wheat On A Stick
 item.minecraftboom.popped_chorus_grenade.name=Popped Chorus Grenade
-item.minecraftboom.telescope.name=Telescope
 item.minecraftboom.levitation_dust.name=Levitation Dust
 item.minecraftboom.magma_brick.name=Magma Brick
 item.minecraftboom.cooked_egg.name=Cooked Egg
@@ -66,10 +64,7 @@ tile.minecraftboom.gravel_stone.name=Gravel Stone
 tile.minecraftboom.fine_gravel_stone.name=Fine Gravel Stone
 tile.minecraftboom.gravel_bricks.name=Gravel Bricks
 
-tile.minecraftboom.charcoal_block.name=Charcoal Block
-tile.minecraftboom.sugar_block.name=Sugar Block
 tile.minecraftboom.sugar_cane_block.name=Sugar Cane Block
-tile.minecraftboom.gunpowder_block.name=Gunpowder Block
 tile.minecraftboom.blaze_powder_block.name=Blaze Powder Block
 tile.minecraftboom.magma_cream_block.name=Magma Cream Block
 tile.minecraftboom.prismarine_crystal_block.name=Prismarine Crystal Block
@@ -298,13 +293,6 @@ tile.minecraftboom.birch_button.name=Birch Button
 tile.minecraftboom.jungle_button.name=Jungle Button
 tile.minecraftboom.acacia_button.name=Acacia Button
 tile.minecraftboom.dark_oak_button.name=Dark Oak Button
-
-tile.pressurePlateWood.name=Oak Pressure Plate
-tile.minecraftboom.spruce_pressure_plate.name=Spruce Pressure Plate
-tile.minecraftboom.birch_pressure_plate.name=Birch Pressure Plate
-tile.minecraftboom.jungle_pressure_plate.name=Jungle Pressure Plate
-tile.minecraftboom.acacia_pressure_plate.name=Acacia Pressure Plate
-tile.minecraftboom.dark_oak_pressure_plate.name=Dark Oak Pressure Plate
 
 tile.minecraftboom.golden_bars.name=Golden Bars
 tile.minecraftboom.soul_glass_pane.name=Soul Glass Pane
