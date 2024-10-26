@@ -8,7 +8,6 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import soupbubbles.minecraftboom.handler.BlockEventHandler;
 import soupbubbles.minecraftboom.handler.ConfigurationHandler;
 import soupbubbles.minecraftboom.handler.EntityEventHandler;
-import soupbubbles.minecraftboom.handler.FuelHandler;
 import soupbubbles.minecraftboom.handler.LootTableEventHandler;
 import soupbubbles.minecraftboom.handler.PlayerEventHandler;
 import soupbubbles.minecraftboom.handler.WorldGenEventHandler;
@@ -42,7 +41,6 @@ public abstract class CommonProxy implements IProxy
         GameRegistry.registerWorldGenerator(new WorldGenerator(), 0);
 
         ModRecipes.init();
-        GameRegistry.registerFuelHandler(new FuelHandler());
     }
 
     @Override

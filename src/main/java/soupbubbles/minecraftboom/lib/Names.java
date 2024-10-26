@@ -100,10 +100,7 @@ public class Names
     public static final String BLOCK_POLISHED_END_STONE = "polished_end_stone";
     public static final String BLOCK_POLISHED_NETHERRACK = "polished_netherrack";
 
-    public static final String BLOCK_CHARCOAL = "charcoal_block";
-    public static final String BLOCK_SUGAR = "sugar_block";
     public static final String BLOCK_SUGAR_CANE = "sugar_cane_block";
-    public static final String BLOCK_GUNPOWDER = "gunpowder_block";
     public static final String BLOCK_BLAZE_POWDER = "blaze_powder_block";
     public static final String BLOCK_MAGMA_CREAM = "magma_cream_block";
     public static final String BLOCK_PRISMARINE_CRYSTAL = "prismarine_crystal_block";
@@ -207,7 +204,6 @@ public class Names
     public static final String ITEM_PRISMARINE_ARROW = "prismarine_arrow";
     public static final String ITEM_WHEAT_ON_A_STICK = "wheat_on_a_stick";
     public static final String ITEM_POPPED_CHORUS_GRENADE = "popped_chorus_grenade";
-    public static final String ITEM_TELESCOPE = "telescope";
     public static final String ITEM_LEVITATION_DUST = "levitation_dust";
     public static final String ITEM_MAGMA_BRICK = "magma_brick";
     public static final String ITEM_COOKED_EGG = "cooked_egg";

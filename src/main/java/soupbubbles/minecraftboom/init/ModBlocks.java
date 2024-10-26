@@ -26,7 +26,6 @@ import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import soupbubbles.minecraftboom.block.BlockBookShelf;
 import soupbubbles.minecraftboom.block.BlockFacelessPumpkin;
-import soupbubbles.minecraftboom.block.BlockGunpowder;
 import soupbubbles.minecraftboom.block.BlockMagmaBricks;
 import soupbubbles.minecraftboom.block.BlockMagmaCream;
 import soupbubbles.minecraftboom.block.BlockNetherBrickFenceGate;
@@ -91,10 +90,7 @@ public class ModBlocks
     public static final Block BLOCK_GRAVEL_BRICKS;
 
     //Storage Blocks
-    public static final Block BLOCK_CHARCOAL;
-    public static final Block BLOCK_SUGAR;
     public static final Block BLOCK_SUGAR_CANE;
-    public static final Block BLOCK_GUNPOWDER;
     public static final Block BLOCK_BLAZE_POWDER;
     public static final Block BLOCK_MAGMA_CREAM;
     public static final Block BLOCK_PRISMARINE_CRYSTAL;
@@ -238,10 +234,7 @@ public class ModBlocks
         BLOCK_FINE_GRAVEL_STONE = ((BlockBase) registerBlock(new BlockBase(Names.BLOCK_FINE_GRAVEL_STONE).setHardness(BlockValues.STONE_HARDNESS).setResistance(BlockValues.STONE_RESISTANCE))).addStairSlab();
         BLOCK_GRAVEL_BRICKS = ((BlockBase) registerBlock(new BlockBase(Names.BLOCK_GRAVEL_BRICKS).setHardness(BlockValues.STONE_HARDNESS).setResistance(BlockValues.STONE_RESISTANCE))).addStairSlab();
 
-        BLOCK_CHARCOAL = registerBlock(new BlockBase(Material.ROCK, Names.BLOCK_CHARCOAL, SoundType.STONE).setHardness(5.0F).setResistance(10.0F));
-        BLOCK_SUGAR = registerBlock(new BlockFallingBase(Names.BLOCK_SUGAR).setHardness(BlockValues.SAND_HARDNESS).setResistance(BlockValues.SAND_RESISTANCE));
         BLOCK_SUGAR_CANE = registerBlock(new BlockPillarBase(Material.LEAVES, Names.BLOCK_SUGAR_CANE, SoundType.PLANT).setHardness(BlockValues.PLANT_BLOCK_HARDNESS).setResistance(BlockValues.PLANT_BLOCK_RESISTANCE));
-        BLOCK_GUNPOWDER = registerBlock(new BlockGunpowder());
         BLOCK_BLAZE_POWDER = registerBlock(new BlockFallingBase(Names.BLOCK_BLAZE_POWDER, SoundType.SNOW).setHardness(BlockValues.SAND_HARDNESS).setResistance(BlockValues.SAND_RESISTANCE));
         BLOCK_MAGMA_CREAM = registerBlock(new BlockMagmaCream());
         BLOCK_PRISMARINE_CRYSTAL = registerBlock(new BlockPrismarineCrystal());

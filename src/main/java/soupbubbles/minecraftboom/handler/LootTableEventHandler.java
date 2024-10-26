@@ -46,11 +46,6 @@ public class LootTableEventHandler
             pools.add("elder_guardian");
         }
         
-        if (ConfigurationHandler.telescopeLoot && Utils.isItemEnabled(ModItems.ITEM_TELESCOPE))
-        {
-            pools.add("simple_dungeon");
-        }
-        
         try
         {
             for (String poolName : pools)

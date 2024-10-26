@@ -28,13 +28,9 @@ public class ModRecipes
     {
         addOreDict("boneWithered", ModItems.ITEM_WITHER_BONE);
         addOreDict("ingotBrickMagma", ModItems.ITEM_MAGMA_BRICK);
-        addOreDict("pinecone", ModItems.ITEM_PINECONE);
         addOreDict("slicePumpkin", ModItems.ITEM_PUMPKIN_SLICE);
-        addOreDict("blockCharcoal", ModBlocks.BLOCK_CHARCOAL);
         addOreDict("blockSugarCane", ModBlocks.BLOCK_SUGAR_CANE);
         addOreDict("blockReed", ModBlocks.BLOCK_SUGAR_CANE);
-        addOreDict("blockSugar", ModBlocks.BLOCK_SUGAR);
-        addOreDict("blockGunPowder", ModBlocks.BLOCK_GUNPOWDER);
         addOreDict("blockBlazePowder", ModBlocks.BLOCK_BLAZE_POWDER);
     }
 
