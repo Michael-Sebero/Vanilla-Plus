@@ -1,0 +1,21 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:jungle_button",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:jungle_button"
+  },
+  "pattern": [
+    "x"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "minecraft:planks",
+      "data": 3
+    }
+  }
+}

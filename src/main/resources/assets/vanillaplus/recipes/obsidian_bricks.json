@@ -1,0 +1,22 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:obsidian_bricks",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:obsidian_bricks",
+    "count": 4
+  },
+  "pattern": [
+    "xx",
+    "xx"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "minecraft:obsidian"
+    }
+  }
+}

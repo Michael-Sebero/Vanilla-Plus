@@ -1,0 +1,22 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:red_nether_brick_fence",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:red_nether_brick_fence",
+    "count": 6
+  },
+  "pattern": [
+    "xxx",
+    "xxx"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "minecraft:red_nether_brick"
+    }
+  }
+}

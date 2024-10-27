@@ -1,0 +1,22 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:pillar_andesite",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:pillar_andesite"
+  },
+  "pattern": [
+    "x",
+    "x"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "minecraft:stone",
+      "data": 6
+    }
+  }
+}

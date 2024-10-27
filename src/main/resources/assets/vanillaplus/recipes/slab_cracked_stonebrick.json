@@ -1,0 +1,22 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:slab_cracked_stonebrick",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:slab_cracked_stonebrick",
+    "count": 6
+  },
+  "pattern": [
+    "xxx"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "minecraft:stonebrick",
+      "data": 2
+    }
+  }
+}

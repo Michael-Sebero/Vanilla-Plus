@@ -1,0 +1,25 @@
+{
+    "pools": 
+    [
+        {                
+            "name": "vanillaplus:wither_skeleton",  
+            "conditions": 
+			[
+				{
+					"condition": "random_chance_with_looting",
+					"chance": 0.75,
+					"looting_multiplier": 0.0625
+				}
+			],
+            "rolls": 1,
+            "entries": 
+            [
+                {
+                    "type": "item",
+                    "name": "vanillaplus:wither_bone",
+                    "weight": 1
+                }                 
+            ]
+        }
+    ]
+}

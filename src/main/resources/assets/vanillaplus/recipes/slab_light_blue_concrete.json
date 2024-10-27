@@ -1,0 +1,22 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:slab_light_blue_concrete",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:slab_light_blue_concrete",
+    "count": 6
+  },
+  "pattern": [
+    "xxx"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "minecraft:concrete",
+      "data": 3
+    }
+  }
+}

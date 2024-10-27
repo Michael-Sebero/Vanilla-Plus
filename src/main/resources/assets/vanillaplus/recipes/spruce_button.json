@@ -1,0 +1,21 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:spruce_button",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:spruce_button"
+  },
+  "pattern": [
+    "x"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "minecraft:planks",
+      "data": 1
+    }
+  }
+}

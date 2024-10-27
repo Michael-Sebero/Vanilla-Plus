@@ -1,0 +1,21 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:gravel_bricks",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:gravel_bricks"
+  },
+  "pattern": [
+    "xx",
+    "xx"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "vanillaplus:fine_gravel_stone"
+    }
+  }
+}

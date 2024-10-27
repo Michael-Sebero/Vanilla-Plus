@@ -1,0 +1,92 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "bars": "vanillaplus:blocks/golden_bars",
+            "particle": "#bars",
+            "edge": "#bars"
+        },
+        "model": "vanillaplus:plane_edges",
+        "uvlock": true
+    },
+    "variants": {
+        "normal": [
+            { 
+                "model": "vanillaplus:item/generated",
+                "textures": {
+                    "layer0": "#bars"
+                }
+            }
+        ],
+        "north": {
+            "true": {
+                "submodel": {
+                    "side_north": {
+                        "model": "vanillaplus:plane_side"
+                    }
+                }
+            },
+            "false": {
+                "submodel": {
+                    "post_north": {
+                        "model": "vanillaplus:plane_post",
+                        "y": 90
+                    }
+                }
+            }
+        },
+        "south": {
+            "true": {
+                "submodel": {
+                    "side_south": {
+                        "model": "vanillaplus:plane_side",
+                        "y": 180
+                    }
+                }
+            },
+            "false": {
+                "submodel": {
+                    "post_south": {
+                        "model": "vanillaplus:plane_post",
+                        "y": 270
+                    }
+                }
+            }
+        },
+        "east": {
+            "true": {
+                "submodel": {
+                    "side_east": {
+                        "model": "vanillaplus:plane_side",
+                        "y": 90
+                    }
+                }
+            },
+            "false": {
+                "submodel": {
+                    "post_east": {
+                    "model": "vanillaplus:plane_post",
+                        "y": 180
+                    }
+                }
+            }
+        },
+        "west": {
+            "true": {
+                "submodel": {
+                    "side_west": {
+                        "model": "vanillaplus:plane_side",
+                        "y": 270
+                    }
+                }
+            },
+            "false": {
+                "submodel": {
+                    "post_west": {
+                        "model": "vanillaplus:plane_post"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:slab_smooth_diorite",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:slab_smooth_diorite",
+    "count": 6
+  },
+  "pattern": [
+    "xxx"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "minecraft:stone",
+      "data": 4
+    }
+  }
+}

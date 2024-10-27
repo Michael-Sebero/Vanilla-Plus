@@ -1,0 +1,22 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:magma_cream_block",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:magma_cream_block"
+  },
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "minecraft:magma_cream"
+    }
+  }
+}

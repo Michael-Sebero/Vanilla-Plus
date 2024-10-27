@@ -1,0 +1,22 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:sugar_cane_block",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:sugar_cane_block"
+  },
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "minecraft:reeds"
+    }
+  }
+}

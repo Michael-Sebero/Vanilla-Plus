@@ -1,0 +1,23 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:golden_bars",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:golden_bars",
+    "count": 16
+  },
+  "pattern": [
+    "xxx",
+    "xxx"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "x": {
+      "type": "forge:ore_dict",
+      "ore": "ingotGold"
+    }
+  }
+}

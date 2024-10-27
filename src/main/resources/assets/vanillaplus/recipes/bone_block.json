@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "minecraft:bone_block"
+  },
+  "pattern": [
+    "xx",
+    "xx"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "x": {
+      "type": "forge:ore_dict",
+      "ore": "bone"
+    }
+  }
+}

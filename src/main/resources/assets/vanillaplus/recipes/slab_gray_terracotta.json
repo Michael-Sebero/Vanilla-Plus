@@ -1,0 +1,22 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:slab_gray_terracotta",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:slab_gray_terracotta",
+    "count": 6
+  },
+  "pattern": [
+    "xxx"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "minecraft:stained_hardened_clay",
+      "data": 7
+    }
+  }
+}

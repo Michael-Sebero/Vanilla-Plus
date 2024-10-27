@@ -1,6 +1,6 @@
 [
 {
-  "modid": "minecraftboom",
+  "modid": "vanillaplus",
   "name": "Minecraft Boom",
   "description": "Exploiting the potential of the game",
   "version": "1.4.3",
@@ -9,7 +9,7 @@
   "updateUrl": "",
   "authorList": ["Soupbubbles", "Eridiah", "merjin", "Kijan"],
   "credits": "RatavierCreations as mod creator and texture artist, Soupbubbles for code",
-  "logoFile": "assets/minecraftboom/textures/logo/logo.png",
+  "logoFile": "assets/vanillaplus/textures/logo/logo.png",
   "screenshots": [],
   "dependencies": []
 }

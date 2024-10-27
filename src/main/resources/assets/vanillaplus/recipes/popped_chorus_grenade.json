@@ -1,0 +1,23 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:popped_chorus_grenade",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:popped_chorus_grenade"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

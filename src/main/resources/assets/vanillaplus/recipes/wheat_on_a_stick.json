@@ -1,0 +1,20 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:wheat_on_a_stick",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:wheat_on_a_stick"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:fishing_rod"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

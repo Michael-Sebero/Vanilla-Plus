@@ -1,0 +1,27 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:jungle_ladder",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:jungle_ladder",
+    "count": 4
+  },
+  "pattern": [
+    "x x",
+    "xyx",
+    "x x"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "minecraft:stick"
+    },
+    "y": {
+      "item": "minecraft:wooden_slab",
+      "data": 3
+    }
+  }
+}

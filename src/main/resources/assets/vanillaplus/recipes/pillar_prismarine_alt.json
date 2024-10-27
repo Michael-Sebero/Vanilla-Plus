@@ -1,0 +1,21 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:pillar_prismarine",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:pillar_prismarine"
+  },
+  "pattern": [
+    "x",
+    "x"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "vanillaplus:polished_prismarine"
+    }
+  }
+}
