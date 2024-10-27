@@ -1,0 +1,15 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "top": "vanillaplus:blocks/magma_cream_block_top",
+            "bottom": "vanillaplus:blocks/magma_cream_block_bottom",
+            "side": "vanillaplus:blocks/magma_cream_block_side"
+        },
+        "model": "cube_bottom_top",
+        "uvlock": true
+    },
+    "variants": {
+        "normal": [{ }]
+    }
+}

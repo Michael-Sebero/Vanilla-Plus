@@ -1,0 +1,22 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:prismarine_crystal_block",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:prismarine_crystal_block"
+  },
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "minecraft:prismarine_crystals"
+    }
+  }
+}

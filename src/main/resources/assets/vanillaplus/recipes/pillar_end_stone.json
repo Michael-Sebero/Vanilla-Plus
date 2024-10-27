@@ -1,0 +1,21 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:pillar_end_stone",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:pillar_end_stone"
+  },
+  "pattern": [
+    "x",
+    "x"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "minecraft:end_bricks"
+    }
+  }
+}

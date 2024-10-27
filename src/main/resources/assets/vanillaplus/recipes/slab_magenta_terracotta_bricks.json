@@ -1,0 +1,21 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:slab_magenta_terracotta_bricks",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:slab_magenta_terracotta_bricks",
+    "count": 6
+  },
+  "pattern": [
+    "xxx"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "vanillaplus:magenta_terracotta_bricks"
+    }
+  }
+}

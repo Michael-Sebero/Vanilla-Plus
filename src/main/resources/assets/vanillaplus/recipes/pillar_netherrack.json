@@ -1,0 +1,21 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:pillar_netherrack",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:pillar_netherrack"
+  },
+  "pattern": [
+    "x",
+    "x"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "vanillaplus:polished_netherrack"
+    }
+  }
+}

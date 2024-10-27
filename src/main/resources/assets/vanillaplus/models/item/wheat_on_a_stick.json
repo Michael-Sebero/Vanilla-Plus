@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "vanillaplus:items/wheat_on_a_stick"
+    }
+}

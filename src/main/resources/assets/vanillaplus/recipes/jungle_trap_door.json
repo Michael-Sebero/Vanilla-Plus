@@ -1,0 +1,23 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:jungle_trap_door",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:jungle_trap_door",
+    "count": 2
+  },
+  "pattern": [
+    "xxx",
+    "xxx"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "minecraft:planks",
+      "data": 3
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "cross": "vanillaplus:blocks/rose"
+        },
+        "model": "cross"
+    },
+    "variants": {
+        "item": {
+            "true": {
+                "model": "vanillaplus:item/generated",
+                "textures": {
+                    "layer0": "vanillaplus:blocks/rose"
+                }
+            },
+            "false": {
+                "model": "cross"
+            }
+        },
+        "normal": [{ }]
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:slab_red_nether_brick",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:slab_red_nether_brick",
+    "count": 6
+  },
+  "pattern": [
+    "xxx"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "minecraft:red_nether_brick"
+    }
+  }
+}

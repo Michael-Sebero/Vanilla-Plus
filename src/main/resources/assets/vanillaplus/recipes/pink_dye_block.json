@@ -1,0 +1,23 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:pink_dye_block",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:pink_dye_block"
+  },
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "minecraft:dye",
+      "data": 9
+    }
+  }
+}

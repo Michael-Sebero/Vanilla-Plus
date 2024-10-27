@@ -1,0 +1,20 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:prismarine_arrow",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:prismarine_arrow"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:arrow"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "vanillaplus:stairs_magma_bricks",
+    "count": 4
+  },
+  "pattern": [
+    "x  ",
+    "xx ",
+    "xxx"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "vanillaplus:magma_bricks"
+    }
+  }
+}

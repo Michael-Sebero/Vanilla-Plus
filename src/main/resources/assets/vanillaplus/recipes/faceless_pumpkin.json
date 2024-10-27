@@ -1,0 +1,22 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:faceless_pumpkin",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:faceless_pumpkin"
+  },
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "vanillaplus:pumpkin_slice"
+    }
+  }
+}

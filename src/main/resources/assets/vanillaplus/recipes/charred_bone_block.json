@@ -1,0 +1,22 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:charred_bone_block",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:charred_bone_block"
+  },
+  "pattern": [
+    "xx",
+    "xx"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "x": {
+      "type": "forge:ore_dict",
+      "ore": "boneWithered"
+    }
+  }
+}

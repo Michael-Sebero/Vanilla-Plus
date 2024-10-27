@@ -1,0 +1,22 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:blaze_powder_block",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:blaze_powder_block"
+  },
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "minecraft:blaze_powder"
+    }
+  }
+}

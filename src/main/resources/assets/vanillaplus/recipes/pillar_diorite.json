@@ -1,0 +1,22 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:pillar_diorite",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:pillar_diorite"
+  },
+  "pattern": [
+    "x",
+    "x"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "minecraft:stone",
+      "data": 4
+    }
+  }
+}

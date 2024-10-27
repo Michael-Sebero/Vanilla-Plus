@@ -1,0 +1,21 @@
+{
+  "conditions" : [
+    {
+        "type" : "vanillaplus:slab_fine_gravel_stone",
+        "value" : true
+    } 
+  ],
+  "result": {
+    "item": "vanillaplus:slab_fine_gravel_stone",
+    "count": 6
+  },
+  "pattern": [
+    "xxx"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "vanillaplus:fine_gravel_stone"
+    }
+  }
+}
