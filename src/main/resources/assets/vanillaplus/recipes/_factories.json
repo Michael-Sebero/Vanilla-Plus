@@ -42,7 +42,6 @@
         "green_terracotta_bricks": "soupbubbles.vanillaplus.util.ConditionFactory",
         "red_terracotta_bricks": "soupbubbles.vanillaplus.util.ConditionFactory",
         "black_terracotta_bricks": "soupbubbles.vanillaplus.util.ConditionFactory",
-        "magma_bricks": "soupbubbles.vanillaplus.util.ConditionFactory",
         "obsidian_bricks": "soupbubbles.vanillaplus.util.ConditionFactory",
         "gravel_bricks": "soupbubbles.vanillaplus.util.ConditionFactory",
         
@@ -141,7 +140,6 @@
 		"stairs_lime_concrete": "soupbubbles.vanillaplus.util.ConditionFactory",
 		"stairs_fine_gravel_stone": "soupbubbles.vanillaplus.util.ConditionFactory",
 		"stairs_cyan_terracotta": "soupbubbles.vanillaplus.util.ConditionFactory",
-		"stairs_magma_bricks": "soupbubbles.vanillaplus.util.ConditionFactory",
 		"stairs_dark_prismarine": "soupbubbles.vanillaplus.util.ConditionFactory",
 		"stairs_smooth_andesite": "soupbubbles.vanillaplus.util.ConditionFactory",
 		"stairs_orange_terracotta": "soupbubbles.vanillaplus.util.ConditionFactory",
@@ -271,7 +269,6 @@
 		"slab_yellow_terracotta": "soupbubbles.vanillaplus.util.ConditionFactory",
 		"slab_pink_terracotta_bricks": "soupbubbles.vanillaplus.util.ConditionFactory",
 		"slab_gray_terracotta_bricks": "soupbubbles.vanillaplus.util.ConditionFactory",
-		"slab_magenta_terracotta": "soupbubbles.vanillaplus.util.ConditionFactory",
-		"slab_magma_bricks": "soupbubbles.vanillaplus.util.ConditionFactory"
+		"slab_magenta_terracotta": "soupbubbles.vanillaplus.util.ConditionFactory"
 	}
 }

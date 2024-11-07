@@ -27,7 +27,6 @@ public class ModRecipes
     private static void initOreDict()
     {
         addOreDict("boneWithered", ModItems.ITEM_WITHER_BONE);
-        addOreDict("ingotBrickMagma", ModItems.ITEM_MAGMA_BRICK);
         addOreDict("slicePumpkin", ModItems.ITEM_PUMPKIN_SLICE);
         addOreDict("blockSugarCane", ModBlocks.BLOCK_SUGAR_CANE);
         addOreDict("blockReed", ModBlocks.BLOCK_SUGAR_CANE);
@@ -45,7 +44,6 @@ public class ModRecipes
         addSmelting(Blocks.SOUL_SAND, new ItemStack(ModBlocks.BLOCK_SOUL_GLASS), 0.1F);
         addSmelting(Blocks.GRAVEL, new ItemStack(ModBlocks.BLOCK_GRAVEL_STONE), 0.1F);
         addSmelting(ModBlocks.BLOCK_FINE_GRAVEL, new ItemStack(ModBlocks.BLOCK_FINE_GRAVEL_STONE), 0.1F);
-        addSmelting(Blocks.MAGMA, new ItemStack(ModItems.ITEM_MAGMA_BRICK), 0.1F);
         addSmelting(Items.EGG, new ItemStack(ModItems.ITEM_COOKED_EGG), 0.2F);
     }
 

@@ -25,7 +25,6 @@ public class ModItems
     public static final Item ITEM_WHEAT_ON_A_STICK;
     public static final Item ITEM_POPPED_CHORUS_GRENADE;
     public static final Item ITEM_LEVITATION_DUST;
-    public static final Item ITEM_MAGMA_BRICK;
     public static final Item ITEM_COOKED_EGG;
 
     static
@@ -38,7 +37,6 @@ public class ModItems
         ITEM_PUMPKIN_SLICE = registerItem(new ItemFoodBase(Names.ITEM_PUMPKIN_SLICE, 2, 1.2F, false));
         ITEM_POPPED_CHORUS_GRENADE = registerItem(new ItemGrenade());
         ITEM_LEVITATION_DUST = registerItem(new ItemBase(Names.ITEM_LEVITATION_DUST));
-        ITEM_MAGMA_BRICK = registerItem(new ItemBase(Names.ITEM_MAGMA_BRICK));
         ITEM_COOKED_EGG = registerItem(new ItemFoodBase(Names.ITEM_COOKED_EGG, 6, 2.8F, false));
     }
 

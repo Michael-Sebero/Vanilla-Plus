@@ -26,7 +26,6 @@ import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import soupbubbles.vanillaplus.block.BlockBookShelf;
 import soupbubbles.vanillaplus.block.BlockFacelessPumpkin;
-import soupbubbles.vanillaplus.block.BlockMagmaBricks;
 import soupbubbles.vanillaplus.block.BlockMagmaCream;
 import soupbubbles.vanillaplus.block.BlockNetherBrickFenceGate;
 import soupbubbles.vanillaplus.block.BlockPrismarineCrystal;
@@ -74,7 +73,6 @@ public class ModBlocks
     public static final Block BLOCK_GREEN_TERRACOTTA_BRICKS;
     public static final Block BLOCK_RED_TERRACOTTA_BRICKS;
     public static final Block BLOCK_BLACK_TERRACOTTA_BRICKS;
-    public static final Block BLOCK_MAGMA_BRICKS;
     public static final Block BLOCK_OBSIDIAN_BRICKS;
     public static final Block BLOCK_POLISHED_PRISMARINE;
     public static final Block BLOCK_POLISHED_DARK_PRISMARINE;
@@ -211,7 +209,6 @@ public class ModBlocks
         BLOCK_GREEN_TERRACOTTA_BRICKS = ((BlockBase) registerBlock(new BlockBase(Names.BLOCK_GREEN_TERRACOTTA_BRICKS).setHardness(BlockValues.TERRACOTTA_HARDNESS).setResistance(BlockValues.TERRACOTTA_RESISTANCE))).addStairSlab();
         BLOCK_RED_TERRACOTTA_BRICKS = ((BlockBase) registerBlock(new BlockBase(Names.BLOCK_RED_TERRACOTTA_BRICKS).setHardness(BlockValues.TERRACOTTA_HARDNESS).setResistance(BlockValues.TERRACOTTA_RESISTANCE))).addStairSlab();
         BLOCK_BLACK_TERRACOTTA_BRICKS = ((BlockBase) registerBlock(new BlockBase(Names.BLOCK_BLACK_TERRACOTTA_BRICKS).setHardness(BlockValues.TERRACOTTA_HARDNESS).setResistance(BlockValues.TERRACOTTA_RESISTANCE))).addStairSlab();
-        BLOCK_MAGMA_BRICKS = registerBlock(new BlockMagmaBricks().addStairSlab());
         BLOCK_OBSIDIAN_BRICKS = ((BlockBase) registerBlock(new BlockBase(Names.BLOCK_OBSIDIAN_BRICKS).setHardness(BlockValues.OBSIDIAN_HARDNESS).setResistance(BlockValues.OBSIDIAN_RESISTANCE))).addStairSlab();
         BLOCK_POLISHED_PRISMARINE = registerBlock(((BlockBase) new BlockBase(Names.BLOCK_POLISHED_PRISMARINE).setHardness(BlockValues.STONE_HARDNESS).setResistance(BlockValues.STONE_RESISTANCE)).addStairSlab());
         BLOCK_POLISHED_DARK_PRISMARINE = registerBlock(((BlockBase) new BlockBase(Names.BLOCK_POLISHED_DARK_PRISMARINE).setHardness(BlockValues.STONE_HARDNESS).setResistance(BlockValues.STONE_RESISTANCE)).addStairSlab());
