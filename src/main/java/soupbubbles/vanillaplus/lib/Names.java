@@ -156,12 +156,6 @@ public class Names
     public static final String BLOCK_TRAPPED_ACACIA_CHEST = "trapped_acacia_chest";
     public static final String BLOCK_TRAPPED_DARK_OAK_CHEST = "trapped_dark_oak_chest";
 
-    public static final String BLOCK_SPRUCE_LADDER = "spruce_ladder";
-    public static final String BLOCK_BIRCH_LADDER = "birch_ladder";
-    public static final String BLOCK_JUNGLE_LADDER = "jungle_ladder";
-    public static final String BLOCK_ACACIA_LADDER = "acacia_ladder";
-    public static final String BLOCK_DARK_OAK_LADDER = "dark_oak_ladder";
-
     public static final String BLOCK_SPRUCE_SIGN = "spruce_sign";
     public static final String BLOCK_BIRCH_SIGN = "birch_sign";
     public static final String BLOCK_JUNGLE_SIGN = "jungle_sign";

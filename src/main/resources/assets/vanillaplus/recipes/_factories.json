@@ -19,11 +19,6 @@
 		"jungle_trap_door": "soupbubbles.vanillaplus.util.ConditionFactory",
 		"acacia_trap_door": "soupbubbles.vanillaplus.util.ConditionFactory",
 		"dark_oak_trap_door": "soupbubbles.vanillaplus.util.ConditionFactory",
-		"spruce_ladder": "soupbubbles.vanillaplus.util.ConditionFactory",
-		"birch_ladder": "soupbubbles.vanillaplus.util.ConditionFactory",
-		"jungle_ladder": "soupbubbles.vanillaplus.util.ConditionFactory",
-		"acacia_ladder": "soupbubbles.vanillaplus.util.ConditionFactory",
-		"dark_oak_ladder": "soupbubbles.vanillaplus.util.ConditionFactory",
 		
         "terracotta_bricks": "soupbubbles.vanillaplus.util.ConditionFactory",
         "white_terracotta_bricks": "soupbubbles.vanillaplus.util.ConditionFactory",

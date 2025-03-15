@@ -34,7 +34,6 @@ import soupbubbles.vanillaplus.block.BlockRose;
 import soupbubbles.vanillaplus.block.BlockSoulGlass;
 import soupbubbles.vanillaplus.block.BlockSoulGlassPane;
 import soupbubbles.vanillaplus.block.BlockWoodenButton;
-import soupbubbles.vanillaplus.block.BlockWoodenLadder;
 import soupbubbles.vanillaplus.block.BlockWoodenTrapDoor;
 import soupbubbles.vanillaplus.block.base.BlockBase;
 import soupbubbles.vanillaplus.block.base.BlockFallingBase;
@@ -140,12 +139,6 @@ public class ModBlocks
     public static final Block BLOCK_JUNGLE_BOOKSHELF;
     public static final Block BLOCK_ACACIA_BOOKSHELF;
     public static final Block BLOCK_DARK_OAK_BOOKSHELF;
-
-    public static final Block BLOCK_SPRUCE_LADDER;
-    public static final Block BLOCK_BIRCH_LADDER;
-    public static final Block BLOCK_JUNGLE_LADDER;
-    public static final Block BLOCK_ACACIA_LADDER;
-    public static final Block BLOCK_DARK_OAK_LADDER;
 
     public static final Block BLOCK_SPRUCE_TRAP_DOOR;
     public static final Block BLOCK_BIRCH_TRAP_DOOR;
@@ -266,12 +259,6 @@ public class ModBlocks
         BLOCK_PILLAR_DARK_PRISMARINE = registerBlock(new BlockPillarBase(Names.BLOCK_PILLAR_DARK_PRISMARINE).setHardness(BlockValues.STONE_HARDNESS).setResistance(BlockValues.STONE_RESISTANCE));
         BLOCK_PILLAR_END_STONE = registerBlock(new BlockPillarBase(Names.BLOCK_PILLAR_END_STONE).setHardness(BlockValues.END_STONE_HARDNESS).setResistance(BlockValues.END_STONE_RESISTANCE));
         BLOCK_PILLAR_NETHERRACK = registerBlock(new BlockPillarBase(Names.BLOCK_PILLAR_NETHERRACK).setHardness(BlockValues.NETHER_BRICKS_HARDNESS).setResistance(BlockValues.NETHERRACK_RESISTANCE));
-
-        BLOCK_SPRUCE_LADDER = registerBlock(new BlockWoodenLadder(Names.BLOCK_SPRUCE_LADDER));
-        BLOCK_BIRCH_LADDER = registerBlock(new BlockWoodenLadder(Names.BLOCK_BIRCH_LADDER));
-        BLOCK_JUNGLE_LADDER = registerBlock(new BlockWoodenLadder(Names.BLOCK_JUNGLE_LADDER));
-        BLOCK_ACACIA_LADDER = registerBlock(new BlockWoodenLadder(Names.BLOCK_ACACIA_LADDER));
-        BLOCK_DARK_OAK_LADDER = registerBlock(new BlockWoodenLadder(Names.BLOCK_DARK_OAK_LADDER));
 
         BLOCK_SPRUCE_TRAP_DOOR = registerBlock(new BlockWoodenTrapDoor(Names.BLOCK_SPRUCE_TRAP_DOOR));
         BLOCK_BIRCH_TRAP_DOOR = registerBlock(new BlockWoodenTrapDoor(Names.BLOCK_BIRCH_TRAP_DOOR));

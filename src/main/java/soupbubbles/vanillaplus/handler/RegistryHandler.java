@@ -11,7 +11,7 @@ import soupbubbles.vanillaplus.lib.Assets;
 @Mod.EventBusSubscriber
 public class RegistryHandler
 {
-    private static String[] override = {"bookshelf", "bone_block", "purpur_pillar", "ladder", "wooden_button", "trapdoor", "stone_brick_stairs", "sandstone_stairs", "red_sandstone_stairs", "stone_brick_slab", "sandstone_slab", "red_sandstone_slab", "pumpkin_pie", "pumpkin_seeds"};
+    private static String[] override = {"bookshelf", "bone_block", "purpur_pillar", "wooden_button", "trapdoor", "stone_brick_stairs", "sandstone_stairs", "red_sandstone_stairs", "stone_brick_slab", "sandstone_slab", "red_sandstone_slab", "pumpkin_pie", "pumpkin_seeds"};
 
     @SubscribeEvent
     public static void registerRecipes(RegistryEvent.Register<IRecipe> event)

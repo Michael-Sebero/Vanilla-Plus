@@ -269,13 +269,6 @@ tile.vanillaplus.slab_gravel_stone.name=Gravel Stone Slab
 tile.vanillaplus.slab_fine_gravel_stone.name=Fine Gravel Stone Slab
 tile.vanillaplus.slab_gravel_bricks.name=Gravel Bricks Slab
 
-tile.ladder.name=Oak Ladder
-tile.vanillaplus.spruce_ladder.name=Spruce Ladder
-tile.vanillaplus.birch_ladder.name=Birch Ladder
-tile.vanillaplus.jungle_ladder.name=Jungle Ladder
-tile.vanillaplus.acacia_ladder.name=Acacia Ladder
-tile.vanillaplus.dark_oak_ladder.name=Dark Oak Ladder
-
 tile.trapdoor.name=Oak Trap Door
 tile.vanillaplus.spruce_trap_door.name=Spruce Trap Door
 tile.vanillaplus.birch_trap_door.name=Birch Trap Door
